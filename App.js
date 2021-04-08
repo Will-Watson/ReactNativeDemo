@@ -3,10 +3,15 @@ import React from 'react';
 import { StyleSheet, Text, View } from 'react-native';
 
 export default function App() {
+  console.log('Hello World');
+
+  const error = `don't you even think about trying to reassign me`;
+  error = 'whoopsie daisy';
+
   return (
     <View style={styles.container}>
-      <Text>Open up App.js to start working on your app!</Text>
-      <StatusBar style="auto" />
+      <Text>Hello World</Text>
+      <StatusBar style='auto' />
     </View>
   );
 }
